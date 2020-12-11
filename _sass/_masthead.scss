@@ -16,6 +16,8 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
+         background-color: #558750;
+
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
