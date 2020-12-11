@@ -46,12 +46,13 @@
   }
 
   img {
-    width: 100%;
+    width: 200%;
   }
 }
 
 .sidebar__right {
   margin-bottom: 1em;
+
   @include breakpoint($large) {
     position: relative;
     float: right;
