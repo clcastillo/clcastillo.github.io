@@ -52,8 +52,6 @@
 
 .sidebar__right {
   margin-bottom: 1em;
-     background-color: ##b055e6;
-
   @include breakpoint($large) {
     position: relative;
     float: right;
