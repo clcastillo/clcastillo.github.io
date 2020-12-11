@@ -30,6 +30,8 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+        colorscheme         :  "dark"
+
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
@@ -233,6 +235,9 @@ defaults:
       type: portfolio
     values:
       layout: single
+      
+      
+      
       author_profile: true
       share: true
       comment: true
